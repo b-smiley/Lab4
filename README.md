@@ -1,12 +1,12 @@
 # Project Overview
 
-- This project modifies a website using css to improve its visuals and allow for flaxablity
-- B ran without any flex while C focused on utilizing the capabilities of flex
+- This project modifies a webpage using CSS to improve the web page's responsiveness.
+- Exercise B ran without any Flexbox, while Exercise C focused on utilizing the capabilities of Flexbox.
 
 ## Team Members
 
 | Name           |
-|----------------|
+| -------------- |
 | Ryan Graham    |
 | Brendan Smiley |
 
