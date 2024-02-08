@@ -51,13 +51,11 @@ Description : Responsive Layouts.
         padding: 10px;
       }
 
-      .row {
-        .medium {
-          float: right;
-        }
-        .small {
-          float: left;
-        }
+      .row .medium {
+        float: right;
+      }
+      .row .small {
+        float: left;
       }
 
       .large,
@@ -108,6 +106,9 @@ Description : Responsive Layouts.
       }
 
       @media screen and (max-width: 480px) {
+        .news-item header h1 {
+          font-size: 18px;
+        }
         .large {
           width: 100%;
         }
@@ -116,9 +117,6 @@ Description : Responsive Layouts.
         }
         .small {
           width: 100%;
-        }
-        .header {
-          font-size: 18px;
         }
       }
     </style>
