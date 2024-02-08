@@ -16,9 +16,6 @@ Description : Flex Layouts.
 		This tag is essential for responsive design as it tells the browser how to control the page's dimensions and scaling.
 	-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    </style>
-
     <style>
       /* CSS for menu. You don't need to touch this part */
       .menu {
@@ -59,8 +56,8 @@ Description : Flex Layouts.
         height: auto;
       }
       .container {
-		display: flex;
-		flex-direction: column;
+        display: flex;
+        flex-direction: column;
       }
       .header,
       .footer {
@@ -74,15 +71,15 @@ Description : Flex Layouts.
       }
       .main {
         padding: 15px;
-		display: flex;
-		flex-direction: column;
+        display: flex;
+        flex-direction: column;
       }
 
       .news-item {
         padding: 10px;
       }
       .row {
-		display: flex;
+        display: flex;
       }
 
       @media screen and (min-width: 769px) {
@@ -91,13 +88,13 @@ Description : Flex Layouts.
           flex-shrink: 0;
         }
         .large {
-		  width: 100%;
+          width: 100%;
         }
         .medium {
-		  width: 70%;
+          width: 70%;
         }
         .small {
-		  width: 30%;
+          width: 30%;
         }
       }
 
@@ -108,11 +105,11 @@ Description : Flex Layouts.
         .menu ul {
           flex-direction: row;
         }
-		.medium {
-		  width: 60%;
+        .medium {
+          width: 60%;
         }
         .small {
-		  width: 40%;
+          width: 40%;
         }
       }
 
@@ -122,11 +119,11 @@ Description : Flex Layouts.
         }
         .medium,
         .small {
-		  width: 100%;
+          width: 100%;
         }
-		.row{
-			flex-direction: column;
-		}
+        .row {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
@@ -212,7 +209,9 @@ Description : Flex Layouts.
             <!-- Medium news item -->
             <div class="medium news-item">
               <header>
-                <h1>Brendan and Ryan Takes a Historic Spacewalk Near the ISS</h1>
+                <h1>
+                  Brendan and Ryan Takes a Historic Spacewalk Near the ISS
+                </h1>
               </header>
               <img src="images/medium.jpg" alt="Medium Image" />
               <article>
